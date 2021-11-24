@@ -1,0 +1,10 @@
+GET http://localhost:5000/items
+## 
+GET http://localhost:5000/items/1
+
+### ADD ITEM
+POST http://localhost:5000/items
+Content-Type: application/json
+{
+    "name":"six"
+}
